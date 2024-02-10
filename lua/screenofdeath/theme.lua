@@ -1,5 +1,5 @@
-local util = require("blarkDue.util")
-local colors = require("blarkDue.colors")
+local util = require("screenofdeath.util")
+local colors = require("screenofdeath.colors")
 
 local M = {}
 --
@@ -14,7 +14,7 @@ local M = {}
 
 ---@return Theme
 function M.setup()
-  local config = require("blarkDue.config")
+  local config = require("screenofdeath.config")
   local options = config.options
   ---@class Theme
   ---@field highlights Highlights

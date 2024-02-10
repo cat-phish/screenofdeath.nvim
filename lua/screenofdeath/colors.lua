@@ -1,4 +1,4 @@
-local util = require("blarkDue.util")
+local util = require("screenofdeath.util")
 
 local M = {}
 
@@ -51,8 +51,8 @@ M.default = {
 }
 
 M.night = {
-  bg = "#1a1b26",
-  bg_dark = "#16161e",
+  bg = "#000000",
+  bg_dark = "#000000",
 }
 M.day = M.night
 
@@ -106,7 +106,7 @@ end
 ---@return ColorScheme
 function M.setup(opts)
   opts = opts or {}
-  local config = require("blarkDue.config")
+  local config = require("screenofdeath.config")
 
   local style = config.is_day() and config.options.light_style or config.options.style
   local palette = M[style] or {}
