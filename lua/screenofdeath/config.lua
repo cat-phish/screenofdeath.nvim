@@ -51,6 +51,7 @@ function M.extend(options)
   M.options = vim.tbl_deep_extend("force", {}, M.options or defaults, options or {})
 end
 
+-- TODO: remove this
 function M.is_day()
   return M.options.style == "day" or M.options.use_background and vim.o.background == "light"
 end

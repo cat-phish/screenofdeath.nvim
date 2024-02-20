@@ -6,7 +6,7 @@ local M = {}
 M.default = {
   none = "NONE",
   bg_dark = "#000039", -- updated
-  bg = "#000048", -- updated was #00005f and darker was  #00005a
+  bg = "#000050", -- updated was #00005f and darker was  #00005a
   bg_highlight = "#292e42",
   terminal_black = "#414868",
   fg = "#d1d4dc", -- was "#d6d8e1", -- was "#dfe2eb", -- was #c0caf5
@@ -48,6 +48,11 @@ M.default = {
   mode_replace = "#e00000",
   mode_command = "#ff8800",
   mode_terminal = "#0a7aca",
+}
+
+M.light = {
+  bg = "#000058",
+  bg_dark = "#000049",
 }
 
 M.night = {
