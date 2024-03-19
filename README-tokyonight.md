@@ -1,7 +1,4 @@
-# 🏙 Screen of Death (Tokyo Night Fork)
-
-This colorscheme is forked from tokyonight. I've preserved the entire rest of the README below for reference.
-The is still a fair amount of work to be done. But the colorscheme should be functional, I use it as my daily driver.
+# 🏙 Tokyo Night
 
 A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 [Lua](https://www.lua.org) ported from the [Visual Studio Code
@@ -313,3 +310,4 @@ How to add a new extra template:
 
 4. Check the newly created themes in the `extra/` directory. Please **DO NOT**
    commit them, as they are already automatically built by the CI.
+# blarkDue
